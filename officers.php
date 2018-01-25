@@ -356,13 +356,13 @@
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
-								<img src="images/officer_photos/2017/andrew_hutton.jpg" class="officer-card-photo" />
+								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
 								Media Officer
 							</h3>
 							<h4 class="officer-card-name">
-								Andrew Hutton
+								Austin Carpenter
 							</h3>
 							<a href="contact.php?position=media">
 								<p class="officer-card-contact">
@@ -372,13 +372,13 @@
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
-								<img src="images/officer_photos/2017/brandon_kristian_bell.jpg" class="officer-card-photo" />
+								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
 								Projects Officer
 							</h3>
 							<h4 class="officer-card-name">
-								Brandon Kristian Bell
+								Gustavo Chavez
 							</h3>
 							<a href="contact.php?position=projects">
 								<p class="officer-card-contact">

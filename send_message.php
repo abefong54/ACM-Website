@@ -31,7 +31,7 @@ else if($_POST['recipient'] == 'pr'){
 	$to = 'acm.utsa@gmail.com';
 }
 else if($_POST['recipient'] == 'media'){
-	$recipient = 'Andrew Hutton';
+	$recipient = 'Austin Carpenter';
 	$to = 'acm.utsa@gmail.com';
 }
 else if($_POST['recipient'] == 'social'){
@@ -39,7 +39,7 @@ else if($_POST['recipient'] == 'social'){
 	$to = 'acm.utsa@gmail.com';
 }
 else if($_POST['recipient'] == 'projects'){
-	$recipient = 'Brandon Kristian Bell';
+	$recipient = 'Gustavo Chavez';
 	$to = 'acm.utsa@gmail.com';
 }
 else if($_POST['recipient'] == 'acmw-chair'){
