@@ -23,7 +23,7 @@
 								Meetings
 							</h1>
 							<p>
-								Meetings are held on a weekly basis at UTSA's main campus at 4:00pm on Fridays. We also have special events that we share on <a href="#slack-container">Slack</a> and post to our <a href="calendar">calendar</a>.
+								Meetings are held on a weekly basis at UTSA's main campus at 2:30 on Thursdays in NPB 4.140. We also have special events that we share on <a href="#slack-container">Slack</a> and post to our <a href="calendar">calendar</a>.
 							</p>
 						</div>
 					</div>
