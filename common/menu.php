@@ -3,7 +3,7 @@
         <nav class="navbar">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false" ontouchend="this.style.top='0px';this.style.boxShadow='0px 0px 0px 0px #000000';this.style.backgroundColor='inherit';">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
