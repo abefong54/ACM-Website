@@ -11,39 +11,51 @@ if(strlen($text) <= 1 || strlen($sender) <= 1 || strlen($from) <= 1){
 
 $recipient = 'ACM UTSA';
 if($_POST['recipient'] == 'president'){
-    $recipient = 'Trase Westbrook';
-    $to = 'acm.utsa@gmail.com';
-}
-else if($_POST['recipient'] == 'vice-president'){
-    $recipient = 'Myka Hancevic';
-    $to = 'acm.utsa@gmail.com';
-}
-else if($_POST['recipient'] == 'president'){
-    $recipient = 'Dalton Sumrall';
-    $to = 'acm.utsa@gmail.com';
-}
-else if($_POST['recipient'] == 'treasurer'){
-    $recipient = 'Julia Vasquez';
-    $to = 'acm.utsa@gmail.com';
-}
-else if($_POST['recipient'] == 'pr'){
-    $recipient = 'Soe Than';
-    $to = 'acm.utsa@gmail.com';
-}
-else if($_POST['recipient'] == 'media'){
     $recipient = 'Austin Carpenter';
     $to = 'acm.utsa@gmail.com';
 }
+else if($_POST['recipient'] == 'vice-president'){
+    $recipient = 'Carla Cardenas';
+    $to = 'acm.utsa@gmail.com';
+}
+else if($_POST['recipient'] == 'secretary'){
+    $recipient = 'Tehya Garza';
+    $to = 'acm.utsa@gmail.com';
+}
+else if($_POST['recipient'] == 'treasurer'){
+    $recipient = 'Victoria Huerta';
+    $to = 'acm.utsa@gmail.com';
+}
+else if($_POST['recipient'] == 'acmw-chair'){
+    $recipient = 'ACMW';
+    $to = 'acm.utsa@gmail.com';
+}
+else if($_POST['recipient'] == 'rowdyhacks-chair'){
+    $recipient = 'Matt Moore';
+    $to = 'acm.utsa@gmail.com';
+}
+else if($_POST['recipient'] == 'pr'){
+    $recipient = 'Nicholas Rillera';
+    $to = 'acm.utsa@gmail.com';
+}
 else if($_POST['recipient'] == 'social'){
-    $recipient = 'Luke Taylor';
+    $recipient = 'John Le';
+    $to = 'acm.utsa@gmail.com';
+}
+else if($_POST['recipient'] == 'media'){
+    $recipient = 'Jeanine Vasquez';
     $to = 'acm.utsa@gmail.com';
 }
 else if($_POST['recipient'] == 'projects'){
     $recipient = 'Gustavo Chavez';
     $to = 'acm.utsa@gmail.com';
 }
-else if($_POST['recipient'] == 'acmw-chair'){
-    $recipient = 'Cassidy Matousek';
+else if($_POST['recipient'] == 'membership'){
+    $recipient = 'Samuel Burnett';
+    $to = 'acm.utsa@gmail.com';
+}
+else{
+    $recipient = 'undefined recipient';
     $to = 'acm.utsa@gmail.com';
 }
 
