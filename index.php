@@ -23,7 +23,16 @@
 								Meetings
 							</h1>
 							<p>
-								Meetings are held on a weekly basis at UTSA's main campus at 2:30 on Thursdays in NPB 4.140. We also have special events that we share on <a href="#slack-container">Slack</a> and post to our <a href="calendar">calendar</a>.
+							    <?php
+							        if(time() > 1534982400){
+							            //less than 1 week before meetings start
+							            echo('Meetings are held on a weekly basis at UTSA\'s main campus from 3-4 on Wednesdays in the NPB. We also have special events that we share on <a href="#slack-container">Slack</a> and post to our <a href="calendar">calendar</a>.');
+							        }
+							        else{
+							            //more than one week before meetings start
+							            echo('Meetings will be held on a weekly basis at UTSA\'s main campus from 3-4 on Wednesdays in the NPB, starting August 29th. We also have special events that we share on <a href="#slack-container">Slack</a> and post to our <a href="calendar">calendar</a>.');
+							        }
+							    ?>
 							</p>
 						</div>
 					</div>

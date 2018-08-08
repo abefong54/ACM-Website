@@ -146,8 +146,13 @@
 											<option value="treasurer"<?php if($position == 'treasurer') echo(' selected');?>>
 												Treasurer
 											</option>
+											<!--
 											<option value="acmw-chair"<?php if($position == 'acmw-chair') echo(' selected');?>>
 												ACMW Chair
+											</option>
+											-->
+											<option value="rowdyhacks-chair"<?php if($position == 'rowdyhacks-chair') echo(' selected');?>>
+												RowdyHacks Chair
 											</option>
 											<option value="pr"<?php if($position == 'pr') echo(' selected');?>>
 												Public Relations
@@ -160,6 +165,9 @@
 											</option>
 											<option value="projects"<?php if($position == 'projects') echo(' selected');?>>
 												Projects
+											</option>
+											<option value="membership"<?php if($position == 'membership') echo(' selected');?>>
+												Membership
 											</option>
 										</select>
 									</div>
@@ -185,8 +193,13 @@
 											<option value="treasurer"<?php if($position == 'treasurer') echo(' selected');?>>
 												Treasurer
 											</option>
+											<!--
 											<option value="acmw-chair"<?php if($position == 'acmw-chair') echo(' selected');?>>
 												ACMW Chair
+											</option>
+											-->
+											<option value="rowdyhacks-chair"<?php if($position == 'rowdyhacks-chair') echo(' selected');?>>
+												RowdyHacks Chair
 											</option>
 											<option value="pr"<?php if($position == 'pr') echo(' selected');?>>
 												Public Relations
@@ -199,6 +212,9 @@
 											</option>
 											<option value="projects"<?php if($position == 'projects') echo(' selected');?>>
 												Projects
+											</option>
+											<option value="membership"<?php if($position == 'membership') echo(' selected');?>>
+												Membership
 											</option>
 										</select>
 									</div>

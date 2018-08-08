@@ -33,6 +33,7 @@
 							-->
 						</div>
 					</div>
+					<!--
 					<div class="row section-container group">
 						<div class="col-sm-12">
 							<h2>
@@ -96,6 +97,7 @@
 							</p>
 						</div>
 					</div>
+					-->
 					<div class="row section-container group">
 						<div class="col-sm-12">
 							<h2>

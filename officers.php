@@ -242,6 +242,7 @@
 						</div>
 						-->
 						
+						<!--
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
 								<img src="images/officer_photos/2017/trase_westbrook.jpg" class="officer-card-photo" />
@@ -381,6 +382,186 @@
 								Gustavo Chavez
 							</h3>
 							<a href="contact.php?position=projects">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
+						</div>
+						-->
+						
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								President
+							</h3>
+							<h4 class="officer-card-name">
+								Austin Carpenter
+							</h3>
+							<a href="contact.php?position=president">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
+						</div>
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								Vice President
+							</h3>
+							<h4 class="officer-card-name">
+								Carla Cardenas
+							</h3>
+							<a href="contact.php?position=vice-president">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
+						</div>
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								Secretary
+							</h3>
+							<h4 class="officer-card-name">
+								Tehya Garza
+							</h3>
+							<a href="contact.php?position=secretary">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
+						</div>
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								Treasurer
+							</h3>
+							<h4 class="officer-card-name">
+								Victoria Huerta
+							</h3>
+							<a href="contact.php?position=treasurer">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
+						</div>
+						<!--
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								ACM-W Chair
+							</h3>
+							<h4 class="officer-card-name">
+								Cassidy Matousek
+							</h3>
+							<a href="contact.php?position=acmw-chair">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
+						</div>
+						-->
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								RowdyHacks Chair
+							</h3>
+							<h4 class="officer-card-name">
+								Matt Moore
+							</h3>
+							<a href="contact.php?position=rowdyhacks-chair">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
+						</div>
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								Public Relations Officer
+							</h3>
+							<h4 class="officer-card-name">
+								Nicholas Rillera
+							</h3>
+							<a href="contact.php?position=pr">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
+						</div>
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								Social Events Officer
+							</h3>
+							<h4 class="officer-card-name">
+								John Le
+							</h3>
+							<a href="contact.php?position=social">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
+						</div>
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								Media Officer
+							</h3>
+							<h4 class="officer-card-name">
+								Jeanine Vasquez
+							</h3>
+							<a href="contact.php?position=media">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
+						</div>
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								Projects Officer
+							</h3>
+							<h4 class="officer-card-name">
+								Gustavo Chavez
+							</h3>
+							<a href="contact.php?position=projects">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
+						</div>
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								Membership Officer
+							</h3>
+							<h4 class="officer-card-name">
+								Samuel Burnett
+							</h3>
+							<a href="contact.php?position=membership">
 								<p class="officer-card-contact">
 									Contact
 								</p>
