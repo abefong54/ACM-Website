@@ -146,11 +146,9 @@
                                             <option value="treasurer"<?php if($position == 'treasurer') echo(' selected');?>>
                                                 Treasurer
                                             </option>
-                                            <!--
                                             <option value="acmw-chair"<?php if($position == 'acmw-chair') echo(' selected');?>>
                                                 ACMW Chair
                                             </option>
-                                            -->
                                             <option value="rowdyhacks-chair"<?php if($position == 'rowdyhacks-chair') echo(' selected');?>>
                                                 RowdyHacks Chair
                                             </option>

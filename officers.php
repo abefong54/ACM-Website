@@ -453,16 +453,15 @@
                                 </p>
                             </a>
                         </div>
-                        <!--
                         <div class="officer-card">
                             <div class="officer-card-photo-container">
-                                <img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+                                <img src="images/officer_photos/2018/tiffany_tabourne.jpg" class="officer-card-photo" />
                             </div>
                             <h3 class="officer-card-title">
                                 ACM-W Chair
                             </h3>
                             <h4 class="officer-card-name">
-                                Cassidy Matousek
+                                Tiffany Tabourne
                             </h3>
                             <a href="contact.php?position=acmw-chair">
                                 <p class="officer-card-contact">
@@ -470,7 +469,6 @@
                                 </p>
                             </a>
                         </div>
-                        -->
                         <div class="officer-card">
                             <div class="officer-card-photo-container">
                                 <img src="images/officer_photos/default.jpg" class="officer-card-photo" />
