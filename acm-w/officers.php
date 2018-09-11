@@ -137,47 +137,31 @@
                         </div>
                         <div class="officer-card">
                             <div class="officer-card-photo-container">
-                                <img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+                                <img src="images/officer_photos/2018/anna_arroyo.jpg" class="officer-card-photo" />
+                            </div>
+                            <h3 class="officer-card-title">
+                                Vice Chair
+                            </h3>
+                            <h4 class="officer-card-name">
+                                Anna Arroyo
+                            </h3>
+                            <a href="contact.php?position=acmw-vice-chair">
+                                <p class="officer-card-contact">
+                                    Contact
+                                </p>
+                            </a>
+                        </div>
+                        <div class="officer-card">
+                            <div class="officer-card-photo-container">
+                                <img src="images/officer_photos/2018/patricia_lao.jpg" class="officer-card-photo" />
                             </div>
                             <h3 class="officer-card-title">
                                 Secretary
                             </h3>
                             <h4 class="officer-card-name">
-                                Tehya Garza
+                                Patricia Lao
                             </h3>
-                            <a href="contact.php?position=secretary">
-                                <p class="officer-card-contact">
-                                    Contact
-                                </p>
-                            </a>
-                        </div>
-                        <div class="officer-card">
-                            <div class="officer-card-photo-container">
-                                <img src="images/officer_photos/default.jpg" class="officer-card-photo" />
-                            </div>
-                            <h3 class="officer-card-title">
-                                Treasurer
-                            </h3>
-                            <h4 class="officer-card-name">
-                                Victoria Huerta
-                            </h3>
-                            <a href="contact.php?position=treasurer">
-                                <p class="officer-card-contact">
-                                    Contact
-                                </p>
-                            </a>
-                        </div>
-                        <div class="officer-card">
-                            <div class="officer-card-photo-container">
-                                <img src="images/officer_photos/default.jpg" class="officer-card-photo" />
-                            </div>
-                            <h3 class="officer-card-title">
-                                Public Relations Officer
-                            </h3>
-                            <h4 class="officer-card-name">
-                                Nicholas Rillera
-                            </h3>
-                            <a href="contact.php?position=pr">
+                            <a href="contact.php?position=acmw-secretary">
                                 <p class="officer-card-contact">
                                     Contact
                                 </p>
