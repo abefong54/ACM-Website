@@ -7,7 +7,7 @@
         <title>Pay Dues | Association for Computing Machinery UTSA</title>
         <script type="text/javascript">
             //redirect if not secure and not on local dev machine
-            if(location.protocol != 'https' && location.hostname != 'localhost' && location.hostname != '127.0.0.1'){
+            if(location.protocol.toLowerCase().indexOf("s") < 0 && location.hostname != 'localhost' && location.hostname != '127.0.0.1'){
                 window.location.href = 'https://' + location.hostname + location.pathname;
             }
         </script>
