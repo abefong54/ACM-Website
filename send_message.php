@@ -23,7 +23,7 @@ else if($_POST['recipient'] == 'secretary'){
     $to = 'acm.utsa@gmail.com';
 }
 else if($_POST['recipient'] == 'treasurer'){
-    $recipient = 'Victoria Huerta';
+    $recipient = 'Roni Maddox';
     $to = 'acm.utsa@gmail.com';
 }
 else if($_POST['recipient'] == 'acmw-chair'){

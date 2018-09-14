@@ -101,6 +101,19 @@
                     <div class="row section-container group">
                         <div class="col-sm-12">
                             <h2>
+                                ACM-ICPC
+                            </h2>
+                            <p>
+                                The ACM-ICPC, or International Collegiate Programming Contest, is
+                                a world-wide programming contest where thousands of 3-person teams
+                                compete by solving anywhere from 8 to 12 algorithm problems of varying
+                                difficulty, from easy to extremely hard.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row section-container group">
+                        <div class="col-sm-12">
+                            <h2>
                                 RowdyHacks Planning
                             </h2>
                             <p>
@@ -123,25 +136,6 @@
                             -->
                         </div>
                     </div>
-                    <!--
-                    <div class="row section-container group">
-                        <div class="col-sm-12">
-                            <h2>
-                                ACM-ICPC
-                            </h2>
-                            <p>
-                                The ACM-ICPC, or International Collegiate Programming Contest, is
-                                a world-wide programming contest where thousands of 3-person teams
-                                compete by solving anywhere from 8 to 12 algorithm problems of varying
-                                difficulty, from easy to extremely hard.
-                            </p>
-                            <p>
-                                If you are interested in joining the UTSA ICPC team for the 2017-2018 school year,
-                                join the <strong>#icpc</strong> channel on Slack.
-                            </p>
-                        </div>
-                    </div>
-                    -->
                 </div>
             </div>
         </div>

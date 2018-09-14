@@ -27,8 +27,8 @@
                             <div class="fa fa-twitter-square fa-3x">
                             </div>
                         </a>
-                        <a href="http://www.linkedin.com/groups/8413611" class="footer-social">
-                            <div class="fa fa-linkedin-square fa-3x">
+                        <a href="https://www.instagram.com/acmw.utsa/" class="footer-social">
+                            <div class="fa fa-instagram fa-3x">
                             </div>
                         </a>
                     </div>
@@ -55,8 +55,8 @@
                             <div class="fa fa-twitter-square fa-3x">
                             </div>
                         </a>
-                        <a href="http://www.linkedin.com/groups/8413611" class="footer-social">
-                            <div class="fa fa-linkedin-square fa-3x">
+                        <a href="https://www.instagram.com/acmw.utsa/" class="footer-social">
+                            <div class="fa fa-instagram fa-3x">
                             </div>
                         </a>
                     </div>

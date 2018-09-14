@@ -131,41 +131,17 @@
                                     <div class="col-sm-12 hidden-xs" style="text-align:right;">
                                         <input type="submit" value="Send" id="contact-form-submit-button" /> to
                                         <select name="recipient" style="margin-left:10px;">
-                                            <option value="acm">
+                                            <option value="acmw">
                                                 ACM-W UTSA
                                             </option>
-                                            <option value="president"<?php if($position == 'president') echo(' selected');?>>
-                                                President
+                                            <option value="acmw-chair"<?php if($position == 'president') echo(' selected');?>>
+                                                ACM-W Chair
                                             </option>
-                                            <option value="vice-president"<?php if($position == 'vice-president') echo(' selected');?>>
-                                                Vice President
+                                            <option value="acmw-vice-chair"<?php if($position == 'vice-president') echo(' selected');?>>
+                                                Vice Chair
                                             </option>
-                                            <option value="secretary"<?php if($position == 'secretary') echo(' selected');?>>
+                                            <option value="acmw-secretary"<?php if($position == 'secretary') echo(' selected');?>>
                                                 Secretary
-                                            </option>
-                                            <option value="treasurer"<?php if($position == 'treasurer') echo(' selected');?>>
-                                                Treasurer
-                                            </option>
-                                            <option value="acmw-chair"<?php if($position == 'acmw-chair') echo(' selected');?>>
-                                                ACMW Chair
-                                            </option>
-                                            <option value="rowdyhacks-chair"<?php if($position == 'rowdyhacks-chair') echo(' selected');?>>
-                                                RowdyHacks Chair
-                                            </option>
-                                            <option value="pr"<?php if($position == 'pr') echo(' selected');?>>
-                                                Public Relations
-                                            </option>
-                                            <option value="social"<?php if($position == 'social') echo(' selected');?>>
-                                                Social Events
-                                            </option>
-                                            <option value="media"<?php if($position == 'media') echo(' selected');?>>
-                                                Media
-                                            </option>
-                                            <option value="projects"<?php if($position == 'projects') echo(' selected');?>>
-                                                Projects
-                                            </option>
-                                            <option value="membership"<?php if($position == 'membership') echo(' selected');?>>
-                                                Membership
                                             </option>
                                         </select>
                                     </div>
@@ -176,43 +152,17 @@
                                     </div>
                                     <div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl" style="text-align:center;margin-top:10px;">
                                         <select name="recipient">
-                                            <option value="acm">
+                                            <option value="acmw">
                                                 ACM-W UTSA
                                             </option>
-                                            <option value="president"<?php if($position == 'president') echo(' selected');?>>
-                                                President
+                                            <option value="acmw-chair"<?php if($position == 'president') echo(' selected');?>>
+                                                ACM-W Chair
                                             </option>
-                                            <option value="vice-president"<?php if($position == 'vice-president') echo(' selected');?>>
-                                                Vice President
+                                            <option value="acmw-vice-chair"<?php if($position == 'vice-president') echo(' selected');?>>
+                                                Vice Chair
                                             </option>
-                                            <option value="secretary"<?php if($position == 'secretary') echo(' selected');?>>
+                                            <option value="acmw-secretary"<?php if($position == 'secretary') echo(' selected');?>>
                                                 Secretary
-                                            </option>
-                                            <option value="treasurer"<?php if($position == 'treasurer') echo(' selected');?>>
-                                                Treasurer
-                                            </option>
-                                            <!--
-                                            <option value="acmw-chair"<?php if($position == 'acmw-chair') echo(' selected');?>>
-                                                ACMW Chair
-                                            </option>
-                                            -->
-                                            <option value="rowdyhacks-chair"<?php if($position == 'rowdyhacks-chair') echo(' selected');?>>
-                                                RowdyHacks Chair
-                                            </option>
-                                            <option value="pr"<?php if($position == 'pr') echo(' selected');?>>
-                                                Public Relations
-                                            </option>
-                                            <option value="social"<?php if($position == 'social') echo(' selected');?>>
-                                                Social Events
-                                            </option>
-                                            <option value="media"<?php if($position == 'media') echo(' selected');?>>
-                                                Media
-                                            </option>
-                                            <option value="projects"<?php if($position == 'projects') echo(' selected');?>>
-                                                Projects
-                                            </option>
-                                            <option value="membership"<?php if($position == 'membership') echo(' selected');?>>
-                                                Membership
                                             </option>
                                         </select>
                                     </div>

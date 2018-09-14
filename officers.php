@@ -445,7 +445,7 @@
                                 Treasurer
                             </h3>
                             <h4 class="officer-card-name">
-                                Victoria Huerta
+                                Roni Maddox
                             </h3>
                             <a href="contact.php?position=treasurer">
                                 <p class="officer-card-contact">
@@ -487,7 +487,7 @@
                         </div>
                         <div class="officer-card">
                             <div class="officer-card-photo-container">
-                                <img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+                                <img src="images/officer_photos/2018/nicholas_rillera.jpg" class="officer-card-photo" />
                             </div>
                             <h3 class="officer-card-title">
                                 Public Relations Officer

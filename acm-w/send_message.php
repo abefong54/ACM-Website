@@ -10,53 +10,20 @@ if(strlen($text) <= 1 || strlen($sender) <= 1 || strlen($from) <= 1){
 }
 
 $recipient = 'ACM-W UTSA';
-if($_POST['recipient'] == 'president'){
-    $recipient = 'Austin Carpenter';
-    $to = 'acm.utsa@gmail.com';
+if($_POST['recipient'] == 'acmw'){
+    //use defaults
 }
-else if($_POST['recipient'] == 'vice-president'){
-    $recipient = 'Carla Cardenas';
-    $to = 'acm.utsa@gmail.com';
+if($_POST['recipient'] == 'acmw-chair'){
+    $recipient = 'Tiffany Tabourne';
 }
-else if($_POST['recipient'] == 'secretary'){
-    $recipient = 'Tehya Garza';
-    $to = 'acm.utsa@gmail.com';
+else if($_POST['recipient'] == 'acmw-vice-chair'){
+    $recipient = 'Anna Arroyo';
 }
-else if($_POST['recipient'] == 'treasurer'){
-    $recipient = 'Victoria Huerta';
-    $to = 'acm.utsa@gmail.com';
-}
-else if($_POST['recipient'] == 'acmw-chair'){
-    $recipient = 'ACMW';
-    $to = 'acm.utsa@gmail.com';
-}
-else if($_POST['recipient'] == 'rowdyhacks-chair'){
-    $recipient = 'Matt Moore';
-    $to = 'acm.utsa@gmail.com';
-}
-else if($_POST['recipient'] == 'pr'){
-    $recipient = 'Nicholas Rillera';
-    $to = 'acm.utsa@gmail.com';
-}
-else if($_POST['recipient'] == 'social'){
-    $recipient = 'John Le';
-    $to = 'acm.utsa@gmail.com';
-}
-else if($_POST['recipient'] == 'media'){
-    $recipient = 'Jeanine Vasquez';
-    $to = 'acm.utsa@gmail.com';
-}
-else if($_POST['recipient'] == 'projects'){
-    $recipient = 'Gustavo Chavez';
-    $to = 'acm.utsa@gmail.com';
-}
-else if($_POST['recipient'] == 'membership'){
-    $recipient = 'Samuel Burnett';
-    $to = 'acm.utsa@gmail.com';
+else if($_POST['recipient'] == 'acmw-secretary'){
+    $recipient = 'Patricia Lao';
 }
 else{
     $recipient = 'undefined recipient';
-    $to = 'acm.utsa@gmail.com';
 }
 
 $body = 'Message from acm-utsa.org, sent by ' . htmlentities($sender) . '<br />Email: ' . htmlentities($_POST['email']) . '<br />For: '.htmlentities($recipient).'<br />Message: <br />' . htmlentities($text);
@@ -151,35 +118,17 @@ header('Location: contact?message_stat='.rawurlencode($message_stat));
                                     <div class="col-sm-12 hidden-xs" style="text-align:right;">
                                         <input type="submit" value="Send" id="contact-form-submit-button" /> to
                                         <select name="recipient" style="margin-left:10px;">
-                                            <option value="acm">
-                                                ACM UTSA
+                                            <option value="acmw">
+                                                ACM-W UTSA
                                             </option>
-                                            <option value="president"<?php if($position == 'president') echo(' selected');?>>
-                                                President
+                                            <option value="acmw-chair"<?php if($position == 'president') echo(' selected');?>>
+                                                ACM-W Chair
                                             </option>
-                                            <option value="vice-president"<?php if($position == 'vice-president') echo(' selected');?>>
-                                                Vice President
+                                            <option value="acmw-vice-chair"<?php if($position == 'vice-president') echo(' selected');?>>
+                                                Vice Chair
                                             </option>
-                                            <option value="secretary"<?php if($position == 'secretary') echo(' selected');?>>
+                                            <option value="acmw-secretary"<?php if($position == 'secretary') echo(' selected');?>>
                                                 Secretary
-                                            </option>
-                                            <option value="treasurer"<?php if($position == 'treasurer') echo(' selected');?>>
-                                                Treasurer
-                                            </option>
-                                            <option value="acmw-chair"<?php if($position == 'acmw-chair') echo(' selected');?>>
-                                                ACMW Chair
-                                            </option>
-                                            <option value="pr"<?php if($position == 'pr') echo(' selected');?>>
-                                                Public Relations
-                                            </option>
-                                            <option value="social"<?php if($position == 'social') echo(' selected');?>>
-                                                Social Events
-                                            </option>
-                                            <option value="media"<?php if($position == 'media') echo(' selected');?>>
-                                                Media
-                                            </option>
-                                            <option value="projects"<?php if($position == 'projects') echo(' selected');?>>
-                                                Projects
                                             </option>
                                         </select>
                                     </div>
@@ -190,35 +139,17 @@ header('Location: contact?message_stat='.rawurlencode($message_stat));
                                     </div>
                                     <div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl" style="text-align:center;margin-top:10px;">
                                         <select name="recipient">
-                                            <option value="acm">
-                                                ACM UTSA
+                                            <option value="acmw">
+                                                ACM-W UTSA
                                             </option>
-                                            <option value="president"<?php if($position == 'president') echo(' selected');?>>
-                                                President
+                                            <option value="acmw-chair"<?php if($position == 'president') echo(' selected');?>>
+                                                ACM-W Chair
                                             </option>
-                                            <option value="vice-president"<?php if($position == 'vice-president') echo(' selected');?>>
-                                                Vice President
+                                            <option value="acmw-vice-chair"<?php if($position == 'vice-president') echo(' selected');?>>
+                                                Vice Chair
                                             </option>
-                                            <option value="secretary"<?php if($position == 'secretary') echo(' selected');?>>
+                                            <option value="acmw-secretary"<?php if($position == 'secretary') echo(' selected');?>>
                                                 Secretary
-                                            </option>
-                                            <option value="treasurer"<?php if($position == 'treasurer') echo(' selected');?>>
-                                                Treasurer
-                                            </option>
-                                            <option value="acmw-chair"<?php if($position == 'acmw-chair') echo(' selected');?>>
-                                                ACMW Chair
-                                            </option>
-                                            <option value="pr"<?php if($position == 'pr') echo(' selected');?>>
-                                                Public Relations
-                                            </option>
-                                            <option value="social"<?php if($position == 'social') echo(' selected');?>>
-                                                Social Events
-                                            </option>
-                                            <option value="media"<?php if($position == 'media') echo(' selected');?>>
-                                                Media
-                                            </option>
-                                            <option value="projects"<?php if($position == 'projects') echo(' selected');?>>
-                                                Projects
                                             </option>
                                         </select>
                                     </div>
