@@ -56,6 +56,7 @@
                     $message_stat = 'Message Status: unknown';
                 }
             }
+            include('common/bg.php');
         ?>
         <div class="modal fade" id="stat-modal" role="dialog">
             <div class="modal-dialog">

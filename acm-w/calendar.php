@@ -150,12 +150,11 @@ require_once(__DIR__ . '/vendor/autoload.php');
                 background-color: #863C7A;
                 color: #FFFFFF;
                 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7e32c2+0,cc4c86+100 */
-background: #7e32c2; /* Old browsers */
-background: -moz-linear-gradient(left, #7e32c2 0%, #cc4c86 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #7e32c2 0%,#cc4c86 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #7e32c2 0%,#cc4c86 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e32c2', endColorstr='#cc4c86',GradientType=1 ); /* IE6-9 */
-copy
+                background: #7e32c2; /* Old browsers */
+                background: -moz-linear-gradient(left, #7e32c2 0%, #cc4c86 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(left, #7e32c2 0%,#cc4c86 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to right, #7e32c2 0%,#cc4c86 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e32c2', endColorstr='#cc4c86',GradientType=1 ); /* IE6-9 */
             }
             .event-item > div {
                 padding: 20px 30px;
@@ -165,6 +164,7 @@ copy
 	<body>
 		<?php
 			require('common/menu.php');
+            include('common/bg.php');
 		?>
 		<div id="content" class="container">
 			<div class="row">

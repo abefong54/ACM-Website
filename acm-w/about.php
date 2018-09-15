@@ -9,6 +9,7 @@
 	<body>
 		<?php
 			require('common/menu.php');
+            include('common/bg.php');
 		?>
 		<div id="content" class="container">
 			<div class="row">

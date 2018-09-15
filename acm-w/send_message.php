@@ -69,6 +69,7 @@ header('Location: contact?message_stat='.rawurlencode($message_stat));
     <body>
         <?php
             require('common/menu.php');
+            include('common/bg.php');
         ?>
         <div id="content" class="container">
             <div class="row">

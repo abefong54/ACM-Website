@@ -13,27 +13,34 @@ body {
 }
 
 a, a:hover, a:focus {
-    color: #863C7A;
+    color: #A53FA4;
 }
 
 a:active {
-    color: #CD5CBB;
+    color: #e074e0;
 }
-
 
 /****************************
     Header & main navbar
 ****************************/
 #main-menu-container {
-    background-color: #863C7A;
+    /*background-color: #A53FA4;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7e32c2+0,cc4c86+100 */
+    background: #7e32c2; /* Old browsers */
+    background: -moz-linear-gradient(left, #7e32c2 0%, #cc4c86 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #7e32c2 0%,#cc4c86 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #7e32c2 0%,#cc4c86 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e32c2', endColorstr='#cc4c86',GradientType=1 ); /* IE6-9 */
     color: #ffffff;
     height: 70px;
     box-shadow: 0px -2px 12px #000000;
 }
 
+/*
 .navbar-collapse {
-    background-color: #863C7A;
+    background-color: #A53FA4;
 }
+*/
 
 .navbar, .navbar > div, .navbar-header {
     height: 70px;
@@ -91,7 +98,8 @@ a:active {
 }
 
 .nav>li>a:hover, .nav>li>a:active{
-    background-color: #A25093;
+    background-color: #ffffff30; /* lighten */
+    background-color: #00000020; /* darken */
 }
 
 .icon-bar{
@@ -312,7 +320,7 @@ button, input[type=button], input[type=submit], .stripe-button{
     top: 0px; /* necessary for smooth animations */
     box-shadow: 0px 0px 0px #000000;
     border-style: none;
-    background-color: #863C7A;
+    background-color: #A53FA4;
     color: #ffffff;
     padding: 10px;
     margin: 10px;
@@ -322,7 +330,7 @@ button, input[type=button], input[type=submit], .stripe-button{
 button:hover, input[type=button]:hover, input[type=submit]:hover, .stripe-button:hover, button:active, input[type=button]:active, input[type=submit]:active, .stripe-button:active {
     top: -3px;
     box-shadow: 0px 3px 10px -3px #000000;
-    background-color: #863C7A;
+    background-color: #A53FA4;
     color: #ffffff;
 }
 
@@ -468,13 +476,13 @@ input[type=image].slack-button:hover, input[type=image].slack-button:active {
 }
 
 .footer-social {
-    color: #863C7A;
+    color: #A53FA4;
     margin: 0px 5px;
     text-decoration: none;
 }
 
 .footer-social:hover, .footer-social:active {
-    color: #CD5CBB;
+    color: #e074e0;
     text-decoration: none;
 }
 
@@ -486,6 +494,12 @@ input[type=image].slack-button:hover, input[type=image].slack-button:active {
 #social-media-container {
     text-align: right;
     margin: 0px;
+}
+
+#social-box {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
 }
 
 @media (max-width: 767px) {
