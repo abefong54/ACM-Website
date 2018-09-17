@@ -14,9 +14,9 @@
         });
     });
 </script>
-<div style="position:absolute;height:0px;" id="bg-container">
+<div style="position:absolute;height:0px;opacity:0.4;" id="bg-container">
     <?php
-        for($i = 0; $i < 50; $i++){
+        for($i = 0; $i < 100; $i++){
             $diameter = rand(150, 400);
             $x = rand(-20, 100);
             $y = rand(-20, 1000);
