@@ -407,7 +407,7 @@
                         </div>
                         <div class="officer-card">
                             <div class="officer-card-photo-container">
-                                <img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+                                <img src="images/officer_photos/2018/carla_cardenas.jpg" class="officer-card-photo" />
                             </div>
                             <h3 class="officer-card-title">
                                 Vice President
@@ -423,7 +423,7 @@
                         </div>
                         <div class="officer-card">
                             <div class="officer-card-photo-container">
-                                <img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+                                <img src="images/officer_photos/2018/tehya_garza.jpg" class="officer-card-photo" />
                             </div>
                             <h3 class="officer-card-title">
                                 Secretary
@@ -439,7 +439,7 @@
                         </div>
                         <div class="officer-card">
                             <div class="officer-card-photo-container">
-                                <img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+                                <img src="images/officer_photos/2018/roni_maddox.jpg" class="officer-card-photo" />
                             </div>
                             <h3 class="officer-card-title">
                                 Treasurer
@@ -535,7 +535,7 @@
                         </div>
                         <div class="officer-card">
                             <div class="officer-card-photo-container">
-                                <img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+                                <img src="images/officer_photos/2018/gustavo_chavez.jpg" class="officer-card-photo" />
                             </div>
                             <h3 class="officer-card-title">
                                 Projects Officer

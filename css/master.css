@@ -334,6 +334,16 @@ input[type=image].slack-button:hover, input[type=image].slack-button:active {
     height: 300px;
 }
 
+#home-page-acm-image {
+    background: url('../images/photos/min/acm-group-2018.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+#home-page-acm-image>div.col-sm-12 {
+    height: 300px;
+}
+
 #about-page-tamuhacks-image {
     background: url('../images/photos/min/tamuhacks2016.jpg');
     background-size: cover;
