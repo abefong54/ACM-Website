@@ -25,6 +25,7 @@
                         <!--<li><a href="shell" id="shell-link">Shell</a></li>-->
                         <li><a href="officers">Officers</a></li>
                         <li><a href="http://acm-utsa.org">ACM</a></li>
+                        <li><a href="events">Events</a></li>
                         <li><a href="contact">Contact Us</a></li>
                         <!-- collapse-only menu items -->
                         <!--
