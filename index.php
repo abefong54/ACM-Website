@@ -13,7 +13,7 @@
         <div id="content" class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="row section-container" id="home-page-rowdyhacks-image">
+                    <div class="row section-container" id="home-page-acm-image">
                         <div class="col-sm-12">
                         </div>
                     </div>
