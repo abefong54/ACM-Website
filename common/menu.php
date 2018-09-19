@@ -29,6 +29,7 @@
                         <li><a href="shell" id="shell-link">Shell</a></li>
                         <li><a href="officers">Officers</a></li>
                         <li><a href="contact">Contact Us</a></li>
+						<li><a href="acm-w">ACM-W</a></li>
                         <!-- collapse-only menu items -->
                         <li class="main-sub-menu-item">
                             <a href="join">Join ACM</a>
