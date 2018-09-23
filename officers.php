@@ -391,7 +391,7 @@
                         
                         <div class="officer-card">
                             <div class="officer-card-photo-container">
-                                <img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+                                <img src="images/officer_photos/2018/austin_carpenter.jpg" class="officer-card-photo" />
                             </div>
                             <h3 class="officer-card-title">
                                 President
@@ -471,7 +471,7 @@
                         </div>
                         <div class="officer-card">
                             <div class="officer-card-photo-container">
-                                <img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+                                <img src="images/officer_photos/2018/matt_moore.jpg" class="officer-card-photo" />
                             </div>
                             <h3 class="officer-card-title">
                                 RowdyHacks Chair
@@ -503,7 +503,7 @@
                         </div>
                         <div class="officer-card">
                             <div class="officer-card-photo-container">
-                                <img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+                                <img src="images/officer_photos/2018/john_le.jpg" class="officer-card-photo" />
                             </div>
                             <h3 class="officer-card-title">
                                 Social Events Officer
