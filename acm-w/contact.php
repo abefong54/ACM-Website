@@ -135,13 +135,13 @@
                                             <option value="acmw">
                                                 ACM-W UTSA
                                             </option>
-                                            <option value="acmw-chair"<?php if($position == 'president') echo(' selected');?>>
+                                            <option value="acmw-chair"<?php if($position == 'acmw-chair') echo(' selected');?>>
                                                 ACM-W Chair
                                             </option>
-                                            <option value="acmw-vice-chair"<?php if($position == 'vice-president') echo(' selected');?>>
+                                            <option value="acmw-vice-chair"<?php if($position == 'acmw-vice-chair') echo(' selected');?>>
                                                 Vice Chair
                                             </option>
-                                            <option value="acmw-secretary"<?php if($position == 'secretary') echo(' selected');?>>
+                                            <option value="acmw-secretary"<?php if($position == 'acmw-secretary') echo(' selected');?>>
                                                 Secretary
                                             </option>
                                         </select>
@@ -156,13 +156,13 @@
                                             <option value="acmw">
                                                 ACM-W UTSA
                                             </option>
-                                            <option value="acmw-chair"<?php if($position == 'president') echo(' selected');?>>
+                                            <option value="acmw-chair"<?php if($position == 'acmw-chair') echo(' selected');?>>
                                                 ACM-W Chair
                                             </option>
-                                            <option value="acmw-vice-chair"<?php if($position == 'vice-president') echo(' selected');?>>
+                                            <option value="acmw-vice-chair"<?php if($position == 'acmw-vice-chair') echo(' selected');?>>
                                                 Vice Chair
                                             </option>
-                                            <option value="acmw-secretary"<?php if($position == 'secretary') echo(' selected');?>>
+                                            <option value="acmw-secretary"<?php if($position == 'acmw-secretary') echo(' selected');?>>
                                                 Secretary
                                             </option>
                                         </select>
