@@ -122,12 +122,33 @@ require_once(__DIR__ . '/vendor/autoload.php');
                     "time":"12:00 PM",
                     "location":"NPB 1.226",
                     "expiration":""
+                },
+                {
+                    "name":"Open House",
+                    "date":"Jan 31",
+                    "time":"11:30 AM",
+                    "location":"NPB 1.226",
+                    "expiration":""
+                },
+                {
+                    "name":"GHC Recap",
+                    "date":"Feb 7",
+                    "time":"11:30 AM",
+                    "location":"NPB 1.226",
+                    "expiration":""
+                },
+                {
+                    "name":"Southwest Airlines",
+                    "date":"Feb 21",
+                    "time":"11:30 AM",
+                    "location":"NPB 1.226",
+                    "expiration":""
                 }
             ]}';
             */
             
             //compiled list //should delete dev list from production
-            var eventListStr = '{"events":[{"name":"Open House","date":"Aug 31","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"FBI Info Session","date":"Sept 7","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"Brandeis HS STEM Event","date":"Sept 8","time":"9:00 AM","location":"Brandeis","expiration":""},{"name":"Career Fair Prep","date":"Sept 14","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"Movie Night: Imitation Game","date":"Sept 16","time":"8:00 PM","location":"Chisholm Hall Theater","expiration":""},{"name":"Citi Info Session","date":"Sept 18","time":"1:00","location":"NPB 4.140","expiration":""},{"name":"Social at UTSA vs TX State Football","date":"Sept 22","time":"","location":"Alamo Dome","expiration":""},{"name":"Grace Hopper Conference","date":"Sep 26-28","time":"","location":"","expiration":""},{"name":"Guest Speaker","date":"Oct 5","time":"","location":"","expiration":""},{"name":"Info Session with Rackspace","date":"Oct 12","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"Grace Hopper Recap with Faculty and Students","date":"Oct 19","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"SWrI Information Session","date":"Oct 26","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"HEB Info Session","date":"Nov 2","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"Guest Speaker - IBM and AI","date":"Nov 9","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"USAA Women\'s Panel","date":"Nov 30","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"Last Meeting of the Semester","date":"Dec 7","time":"12:00 PM","location":"NPB 1.226","expiration":""}]}';
+            var eventListStr = '{"events":[{"name":"Open House","date":"Aug 31","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"FBI Info Session","date":"Sept 7","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"Brandeis HS STEM Event","date":"Sept 8","time":"9:00 AM","location":"Brandeis","expiration":""},{"name":"Career Fair Prep","date":"Sept 14","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"Movie Night: Imitation Game","date":"Sept 16","time":"8:00 PM","location":"Chisholm Hall Theater","expiration":""},{"name":"Citi Info Session","date":"Sept 18","time":"1:00","location":"NPB 4.140","expiration":""},{"name":"Social at UTSA vs TX State Football","date":"Sept 22","time":"","location":"Alamo Dome","expiration":""},{"name":"Grace Hopper Conference","date":"Sep 26-28","time":"","location":"","expiration":""},{"name":"Guest Speaker","date":"Oct 5","time":"","location":"","expiration":""},{"name":"Info Session with Rackspace","date":"Oct 12","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"Grace Hopper Recap with Faculty and Students","date":"Oct 19","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"SWrI Information Session","date":"Oct 26","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"HEB Info Session","date":"Nov 2","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"Guest Speaker - IBM and AI","date":"Nov 9","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"USAA Women\'s Panel","date":"Nov 30","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"Last Meeting of the Semester","date":"Dec 7","time":"12:00 PM","location":"NPB 1.226","expiration":""},{"name":"Open House","date":"Jan 31","time":"11:30 AM","location":"NPB 1.226","expiration":""},{"name":"GHC Recap","date":"Feb 7","time":"11:30 AM","location":"NPB 1.226","expiration":""},{"name":"Southwest Airlines","date":"Feb 21","time":"11:30 AM","location":"NPB 1.226","expiration":""}]}';
             var eventList = JSON.parse(eventListStr);
             <?php
                 $color1 = "7e32c2";
@@ -187,6 +208,7 @@ require_once(__DIR__ . '/vendor/autoload.php');
 						Events
 					</h1>
 					<div id="event-items">
+					    <!-- events are stored in JSON above -->
 					</div>
 				</div>
 			</div>
